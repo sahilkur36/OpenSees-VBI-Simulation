@@ -1,0 +1,126 @@
+{
+    "quarter_car_simple_Yang2004": {
+        "description": "Simple quarter-car (spring-mass) from Yang et al. (2004)",
+        "mass": 1200,
+        "stiff": 500000,
+        "damping": 0,
+        "speed": 10,
+        "axle_local_coords": [0],
+        "tot_num_dofs": 2,
+        "opensees_model_name": "one_axle_simple"
+    },
+
+    "quarter_car_composite_Eshkevari2020_commercial": {
+        "description": "Composite quarter-car (tyre + suspension) — commercial vehicle from Eshkevari et al. (2020)",
+        "body_mass": 466.0,
+        "axle_mass": 69.9,
+        "susp_stiff": 290.3,
+        "susp_damping": 2796.0,
+        "tyre_stiff": 3043.0,
+        "tyre_damp": 0.0,
+        "speed": 10,
+        "axle_local_coords": [0],
+        "tot_num_dofs": 3,
+        "opensees_model_name": "one_axle_comp"
+    },
+
+    "quarter_car_composite_Eshkevari2020_heavy": {
+        "description": "Composite quarter-car (tyre + suspension) — heavy truck from Eshkevari et al. (2020)",
+        "body_mass": 17300,
+        "axle_mass": 700,
+        "susp_stiff": 4.0e5,
+        "susp_damping": 1.0e4,
+        "tyre_stiff": 1.75e6,
+        "tyre_damp": 0.0,
+        "speed": 10,
+        "axle_local_coords": [0],
+        "tot_num_dofs": 3,
+        "opensees_model_name": "one_axle_comp"
+    },
+
+    "quarter_car_composite_Cantero_V1": {
+        "description": "Composite quarter-car from the NuBe benchmark dataset — Cantero et al. (2024), vehicle V1",
+        "body_mass": 8000,
+        "axle_mass": 1100,
+        "susp_stiff": 2.0e6,
+        "susp_damping": 40e3,
+        "tyre_stiff": 3.5e6,
+        "tyre_damp": 0.0,
+        "speed": 25,
+        "axle_local_coords": [0],
+        "tot_num_dofs": 3,
+        "opensees_model_name": "one_axle_comp"
+    },
+
+    "half_car_with_pitch_Yang2019": {
+        "description": "Half-car with body pitch (no axle masses) from Yang et al. (2019)",
+        "body_mass": 2500,
+        "susp_stiff_front": 0.23e6,
+        "susp_stiff_rear": 0.18e6,
+        "susp_damping_front": 0,
+        "susp_damping_rear": 0,
+        "pitch_moment_inertia": 2300,
+        "speed": 10,
+        "axle_local_coords": [0, 3],
+        "center_mass_local_coord": 1.3,
+        "tot_num_dofs": 8,
+        "opensees_model_name": "two_axle_comp2"
+    },
+
+    "half_car_with_pitch_damped": {
+        "description": "Half-car with body pitch and suspension damping, adapted from Yang et al. (2019)",
+        "body_mass": 2500,
+        "susp_stiff_front": 0.23e6,
+        "susp_stiff_rear": 0.18e6,
+        "susp_damping_front": 3597,
+        "susp_damping_rear": 2815,
+        "pitch_moment_inertia": 2300,
+        "speed": 20,
+        "axle_local_coords": [0, 3],
+        "center_mass_local_coord": 1.7,
+        "tot_num_dofs": 8,
+        "opensees_model_name": "two_axle_comp2"
+    },
+
+    "half_car_full_composite_Cantero_V2": {
+        "description": "Full composite half-car with axle masses from the NuBe benchmark — Cantero et al. (2024), vehicle V2",
+        "body_mass": 10500,
+        "axle_mass_front": 900,
+        "axle_mass_rear": 900,
+        "susp_stiff_front": 6.0e6,
+        "susp_stiff_rear": 6.0e6,
+        "susp_damping_front": 1.0e4,
+        "susp_damping_rear": 1.0e4,
+        "tyre_stiff_front": 1.75e6,
+        "tyre_stiff_rear": 1.75e6,
+        "tyre_damping_front": 0,
+        "tyre_damping_rear": 0,
+        "pitch_moment_inertia": 50000,
+        "speed": 25,
+        "axle_local_coords": [0, 5.0],
+        "center_mass_local_coord": 2.5,
+        "tot_num_dofs": 10,
+        "opensees_model_name": "two_axle_comp3"
+    },
+
+    "half_car_full_composite_OBrien": {
+        "description": "Full composite half-car — O'Brien et al. configuration",
+        "body_mass": 16200,
+        "axle_mass_front": 700,
+        "axle_mass_rear": 1100,
+        "susp_stiff_front": 0.4e6,
+        "susp_stiff_rear": 1e6,
+        "susp_damping_front": 10e3,
+        "susp_damping_rear": 20e3,
+        "tyre_stiff_front": 1.75e6,
+        "tyre_stiff_rear": 3.5e6,
+        "tyre_damping_front": 0,
+        "tyre_damping_rear": 0,
+        "pitch_moment_inertia": 93475,
+        "speed": 22,
+        "axle_local_coords": [0, 4.75],
+        "center_mass_local_coord": 2.375,
+        "tot_num_dofs": 10,
+        "opensees_model_name": "two_axle_comp3"
+    }
+}
