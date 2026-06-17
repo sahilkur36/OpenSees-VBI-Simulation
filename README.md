@@ -161,10 +161,3 @@ This project is released under the [MIT License](LICENSE).
 Department of Civil and Environmental Engineering
 University of Alberta, Edmonton, Canada
 Email: [talebika@ualberta.ca](mailto:talebika@ualberta.ca)
-
-## References
-
-- Yang, Y.B., Yau, J.D. & Wu, Y.S. (2004). *Vehicle-Bridge Interaction Dynamics*. World Scientific.
-- Yang, Y.B., Wang, Z.L., Shi, K., Xu, H., Mo, X.Q. & Wu, Y.T. (2019). Two-axle test vehicle for bridges. *International Journal of Structural Stability and Dynamics*.
-- Cantero, D. et al. (2024). NuBe: Numerical Benchmark for vehicle-bridge interaction. *Engineering Structures*.
-- Eshkevari, S.S., Matarazzo, T.J. & Pakzad, S.N. (2020). Bridge modal identification using acceleration measurements within moving vehicles. *Mechanical Systems and Signal Processing*.
